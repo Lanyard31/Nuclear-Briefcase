@@ -43,6 +43,19 @@ autostart = false
 visible = false
 position = Vector2( 465.524, 371.149 )
 
+<<<<<<< HEAD
+=======
+[node name="Nations" type="Node" parent="." index="4"]
+
+[node name="FINLAND" parent="Nations" index="0" instance=ExtResource( 5 )]
+
+position = Vector2( 1065.58, 185.39 )
+
+[node name="france" parent="Nations" index="1" instance=ExtResource( 5 )]
+
+position = Vector2( 930.903, 295.58 )
+
+>>>>>>> 0d639759462a4c253aba8526f6f5b323555a3364
 [connection signal="shoot" from="." to="." method="_on_missile_fire"]
 
 
