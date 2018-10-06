@@ -6,7 +6,7 @@
 [ext_resource path="res://PlayerCity.tscn" type="PackedScene" id=4]
 [ext_resource path="res://NPCity.tscn" type="PackedScene" id=5]
 
-[node name="Root" type="Node"]
+[node name="Root" type="Node" index="0"]
 
 script = ExtResource( 1 )
 Nuke = ExtResource( 2 )
@@ -36,8 +36,6 @@ autostart = false
 [node name="PlayerNuke" parent="." index="3" instance=ExtResource( 2 )]
 
 visible = false
-modulate = Color( 1, 1, 1, 1 )
-self_modulate = Color( 1, 1, 1, 1 )
 position = Vector2( 465.524, 371.149 )
 
 [node name="Nations" type="Node" parent="." index="4"]
@@ -49,7 +47,6 @@ position = Vector2( 1065.58, 185.39 )
 [node name="france" parent="Nations" index="1" instance=ExtResource( 5 )]
 
 position = Vector2( 930.903, 295.58 )
-_sections_unfolded = [ "Visibility" ]
 
 [connection signal="shoot" from="." to="." method="_on_missile_fire"]
 

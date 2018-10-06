@@ -179,8 +179,6 @@ _sections_unfolded = [ "Resource" ]
 
 [node name="PlayerNuke" index="0" instance=ExtResource( 1 )]
 
-modulate = Color( 0.980469, 0.0651093, 0.0651093, 1 )
-self_modulate = Color( 0.917969, 0.222321, 0.222321, 1 )
 light_mask = 0
 position = Vector2( 57.1677, 63.6362 )
 script = ExtResource( 2 )
@@ -191,11 +189,10 @@ lifetime = 5.0
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
 
-modulate = Color( 0.882813, 0.882813, 0.882813, 1 )
 scale = Vector2( 0.6, 0.6 )
 frames = SubResource( 1 )
-animation = "default"
-frame = 29
+animation = "ping"
+frame = 67
 playing = true
 _sections_unfolded = [ "Material", "Transform", "Visibility" ]
 
@@ -203,5 +200,9 @@ _sections_unfolded = [ "Material", "Transform", "Visibility" ]
 
 scale = Vector2( 0.6, 0.6 )
 _sections_unfolded = [ "Animation", "Offset", "Pause", "Region", "Transform", "Visibility", "Z Index" ]
+
+[node name="CollisionShape2D" parent="." index="2"]
+
+_sections_unfolded = [ "Visibility" ]
 
 
