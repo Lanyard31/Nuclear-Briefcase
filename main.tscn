@@ -24,21 +24,26 @@ __meta__ = {
 
 position = Vector2( 394.163, 340.717 )
 
-[node name="NPCity" parent="." index="2" instance=ExtResource( 5 )]
-
-position = Vector2( 1065.58, 185.39 )
-population = null
-
-[node name="GunTimer" type="Timer" parent="." index="3"]
+[node name="GunTimer" type="Timer" parent="." index="2"]
 
 process_mode = 1
 wait_time = 1.0
 one_shot = false
 autostart = false
 
-[node name="PlayerNuke" parent="." index="4" instance=ExtResource( 2 )]
+[node name="PlayerNuke" parent="." index="3" instance=ExtResource( 2 )]
 
 position = Vector2( 467.524, 371.149 )
+
+[node name="Nations" type="Node" parent="." index="4"]
+
+[node name="FINLAND" parent="Nations" index="0" instance=ExtResource( 5 )]
+
+position = Vector2( 1065.58, 185.39 )
+
+[node name="france" parent="Nations" index="1" instance=ExtResource( 5 )]
+
+position = Vector2( 930.903, 295.58 )
 
 [connection signal="shoot" from="." to="." method="_on_missile_fire"]
 

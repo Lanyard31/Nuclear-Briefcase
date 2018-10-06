@@ -2,12 +2,12 @@
 
 [ext_resource path="res://Nuke.tscn" type="PackedScene" id=1]
 [ext_resource path="res://PlayerNuke.gd" type="Script" id=2]
-[ext_resource path="res://icons_missile.png" type="Texture" id=3]
+[ext_resource path="res://assets/icons_missile.png" type="Texture" id=3]
 
 [node name="PlayerNuke" instance=ExtResource( 1 )]
 
 script = ExtResource( 2 )
-speed = 100
+speed = 40
 damage = 1000
 lifetime = 5.0
 

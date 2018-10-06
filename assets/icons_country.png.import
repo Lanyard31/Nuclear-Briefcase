@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icons_missile.png-ff4fef7ff15658c153cbfbaea84a6d5b.stex"
+path="res://.import/icons_country.png-245bf24f54d83612e371498fe924b606.stex"
 
 [deps]
 
-source_file="res://icons_missile.png"
-source_md5="c4d0867aaaac12dac40f908e4917cb6b"
+source_file="res://assets/icons_country.png"
+source_md5="d06686f0d7c07c18de0b216bfb19e242"
 
-dest_files=[ "res://.import/icons_missile.png-ff4fef7ff15658c153cbfbaea84a6d5b.stex" ]
-dest_md5="88b9242c62c771ca055ca54206bc0644"
+dest_files=[ "res://.import/icons_country.png-245bf24f54d83612e371498fe924b606.stex" ]
+dest_md5="2e89e510990ba3b6a22c05c640c4ab96"
 
 [params]
 
