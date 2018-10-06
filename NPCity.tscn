@@ -5,11 +5,12 @@
 
 [node name="NPCity" instance=ExtResource( 1 )]
 
+position = Vector2( 17.1473, 32.0298 )
+_sections_unfolded = [ "Visibility" ]
 population = null
 
 [node name="Sprite" parent="." index="1"]
 
-modulate = Color( 0.237839, 0.250368, 0.558594, 1 )
 texture = ExtResource( 2 )
 _sections_unfolded = [ "Visibility" ]
 
