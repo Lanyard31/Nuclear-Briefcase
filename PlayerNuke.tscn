@@ -2,6 +2,7 @@
 
 [ext_resource path="res://Nuke.tscn" type="PackedScene" id=1]
 [ext_resource path="res://PlayerNuke.gd" type="Script" id=2]
+<<<<<<< HEAD
 [ext_resource path="res://assets/missile-enemy/missile-animation_00040_00000.png" type="Texture" id=3]
 [ext_resource path="res://assets/missile-enemy/missile-animation_00040_00001.png" type="Texture" id=4]
 [ext_resource path="res://assets/missile-enemy/missile-animation_00040_00002.png" type="Texture" id=5]
@@ -156,6 +157,9 @@
 [ext_resource path="res://assets/ping/ping_00087.png" type="Texture" id=154]
 [ext_resource path="res://assets/ping/ping_00088.png" type="Texture" id=155]
 [ext_resource path="res://assets/ping/ping_00089.png" type="Texture" id=156]
+=======
+[ext_resource path="res://icons_missile.png" type="Texture" id=3]
+>>>>>>> parent of 96a9eac... Missiles fire at countries
 
 [sub_resource type="SpriteFrames" id=1]
 
@@ -182,8 +186,12 @@ _sections_unfolded = [ "Resource" ]
 light_mask = 0
 position = Vector2( 57.1677, 63.6362 )
 script = ExtResource( 2 )
+<<<<<<< HEAD
 _sections_unfolded = [ "Audio Bus", "Collision", "Material", "Pause", "Pickable", "Transform", "Visibility", "Z Index" ]
 speed = 25
+=======
+speed = 100
+>>>>>>> parent of 96a9eac... Missiles fire at countries
 damage = 1000
 lifetime = 5.0
 
