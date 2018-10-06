@@ -7,10 +7,7 @@ path="res://.import/icons_country.png-245bf24f54d83612e371498fe924b606.stex"
 [deps]
 
 source_file="res://assets/icons_country.png"
-source_md5="d06686f0d7c07c18de0b216bfb19e242"
-
 dest_files=[ "res://.import/icons_country.png-245bf24f54d83612e371498fe924b606.stex" ]
-dest_md5="2e89e510990ba3b6a22c05c640c4ab96"
 
 [params]
 

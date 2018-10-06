@@ -7,10 +7,7 @@ path="res://.import/worldmap-04-01.png-194a4b7222de5a025f51faa02611ad62.stex"
 [deps]
 
 source_file="res://assets/worldmap-04-01.png"
-source_md5="e936541317aa3596186cb794083c4c01"
-
 dest_files=[ "res://.import/worldmap-04-01.png-194a4b7222de5a025f51faa02611ad62.stex" ]
-dest_md5="ca3afd59779e4b60f2458212e04fce72"
 
 [params]
 

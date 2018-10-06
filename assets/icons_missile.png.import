@@ -7,10 +7,7 @@ path="res://.import/icons_missile.png-fa725663cc6875b99c46ec6150685d3d.stex"
 [deps]
 
 source_file="res://assets/icons_missile.png"
-source_md5="c4d0867aaaac12dac40f908e4917cb6b"
-
 dest_files=[ "res://.import/icons_missile.png-fa725663cc6875b99c46ec6150685d3d.stex" ]
-dest_md5="88b9242c62c771ca055ca54206bc0644"
 
 [params]
 
